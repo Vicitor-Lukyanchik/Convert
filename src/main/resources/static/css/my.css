@@ -1,0 +1,21 @@
+.my_button {
+    border: none;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #999;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .4s;
+    margin-top: 500px;
+    margin-left: 490px;
+    border-radius: 3px;
+}
+
+.my_button:hover{
+    color: #eee;
+    background-color: #476160;
+}
