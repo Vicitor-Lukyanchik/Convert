@@ -1,0 +1,50 @@
+.study_button {
+    border: none;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #999;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .4s;
+    margin-top: 15px;
+    margin-left: 49px;
+    border-radius: 3px;
+}
+
+.study_button:hover {
+    color: #eee;
+    background-color: #476160;
+}
+
+.my_body {
+    background-color: #476160;
+}
+
+.my_cancel {
+    outline: none;
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #999;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .4s;
+    margin-top: 30px;
+    margin-left: 1390px;
+    border-radius: 3px;
+}
+
+.my_cancel:hover {
+    color: #eee;
+    background-color: #476160;
+}
+
+.my_text{
+    margin-bottom: 20px;
+}

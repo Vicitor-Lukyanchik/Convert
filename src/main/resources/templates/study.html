@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Study</title>
+    <link th:href="@{/css/popup.css}" rel="stylesheet" type="text/css">
+    <link th:href="@{/css/study.css}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" th:href="@{/css/nicepage.css}" media="screen">
+    <link rel="stylesheet" th:href="@{/css/about-us-1.css}" media="screen">
+    <link th:href="@{/css/my.css}" rel="stylesheet" type="text/css">
+    <script class="u-script" type="text/javascript" th:src="@{/js/jquery-1.9.1.min.js}" defer=""></script>
+    <script class="u-script" type="text/javascript" th:src="@{/js/popup.js}" defer=""></script>
+    <script class="u-script" type="text/javascript" th:src="@{/js/nicepage.js}" defer=""></script>
+
+</head>
+<body class="my_body">
+
+<header>
+    <a class="my_cancel" th:href="@{/index}">Назад</a>
+</header>
+
+<section class="u-clearfix u-palette-1-base u-section-3" id="carousel_33e7">
+
+    <form th:method="GET" th:action="@{/study/download/first}">
+        <p class="my_text">Скачать документ(метод конверта)</p>
+        <input class="study_button" type="submit" value="скачать"/>
+    </form>
+
+  <form th:method="GET" th:action="@{/study/download/second}">
+      <p class="my_text">Скачать документ(Бизнес-модель Остервальдера)</p>
+        <input class="study_button" type="submit" value="скачать"/>
+    </form>
+
+</section>
+
+</body>
+</html>
